@@ -1,10 +1,10 @@
-@import 'vars';
+@import "vars";
 
 .contact-panel {
   width: 100%;
   max-width: 400px;
   transition: width 0.5s ease-in-out;
-  border-left: 1px solid #E4EDEF;
+  border-left: 1px solid #e4edef;
   background: white;
   display: flex;
   flex-direction: column;
@@ -24,8 +24,8 @@
       border: 0;
       border-radius: 24px;
       font-size: 20px;
-      background: #D9EFFC;
-      color: #4592DB;
+      background: #d9effc;
+      color: #4592db;
       height: 50px;
       min-height: 50px;
       font-weight: 500;
@@ -45,13 +45,13 @@
     }
 
     &__link {
-      color: #61A7E6;
+      color: #61a7e6;
       font-size: 18px;
       cursor: pointer;
       display: inline-flex;
 
       &:hover {
-        color: darken(#61A7E6, 10%);
+        color: darken(#61a7e6, 10%);
       }
     }
 
@@ -59,7 +59,7 @@
       white-space: nowrap;
 
       > * {
-        background: #D9EFFC;
+        background: #d9effc;
         height: 35px;
         border-radius: 20px;
         display: inline-flex;
@@ -67,7 +67,7 @@
         padding-left: 20px;
         padding-right: 20px;
         font-weight: 500;
-        color: #25455E;
+        color: #25455e;
         font-size: 16px;
         margin-right: 10px;
         cursor: pointer;
@@ -78,13 +78,13 @@
 
         > i {
           margin-left: 10px;
-          color: #52A6FA;
+          color: #52a6fa;
         }
       }
     }
 
     &__attachments {
-      color: #5E7182;
+      color: #5e7182;
       font-size: 18px;
       white-space: nowrap;
 
@@ -101,7 +101,7 @@
       font-size: 18px;
       margin: 0;
       margin-top: 10px;
-      color: #4A5861;
+      color: #4a5861;
     }
 
     &__label {
@@ -118,7 +118,7 @@
   }
 
   &__header {
-    background: #4DB8EF;
+    background: #4db8ef;
     padding: 40px;
     display: flex;
     flex-direction: column;

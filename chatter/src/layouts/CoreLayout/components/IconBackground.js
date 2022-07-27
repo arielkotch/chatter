@@ -1,6 +1,6 @@
-import React from 'react';
-import ICONS from '../constants/icons';
-import '../styles/_icon-background.scss';
+import React from "react";
+import ICONS from "../constants/icons";
+import "../styles/_icon-background.scss";
 
 const SPACING_PX = 125;
 const SPACING_MARGIN = SPACING_PX / 4;
@@ -24,10 +24,21 @@ function IconRow({ numberOfIcons }) {
             aria-hidden="true"
             className={icon.name}
             style={{
-              transform: icon.noRotation ? void 0 : `rotate(${getRandomNumber(0, 360)}deg)`,
-              fontSize: `${getRandomNumber(icon.minSize || 10, icon.maxSize)}px`,
-              marginTop: `${getRandomNumber(-SPACING_MARGIN, SPACING_MARGIN)}px`,
-              marginLeft: `${getRandomNumber(-SPACING_MARGIN, SPACING_MARGIN)}px`,
+              transform: icon.noRotation
+                ? void 0
+                : `rotate(${getRandomNumber(0, 360)}deg)`,
+              fontSize: `${getRandomNumber(
+                icon.minSize || 10,
+                icon.maxSize
+              )}px`,
+              marginTop: `${getRandomNumber(
+                -SPACING_MARGIN,
+                SPACING_MARGIN
+              )}px`,
+              marginLeft: `${getRandomNumber(
+                -SPACING_MARGIN,
+                SPACING_MARGIN
+              )}px`,
             }}
           />
         );
@@ -47,5 +58,5 @@ export default function IconBackground() {
         <IconRow numberOfIcons={numberOfElsPerRow} />
       ))}
     </div>
-  )
+  );
 }

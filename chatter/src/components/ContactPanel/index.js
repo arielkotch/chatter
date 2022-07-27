@@ -1,1 +1,1 @@
-export { default } from './ContactPanel';
+export { default } from "./ContactPanel";

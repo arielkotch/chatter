@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState } from "react";
 
 export default function Typing() {
   const [numberOfDots, setDots] = useState(1);
@@ -12,15 +12,12 @@ export default function Typing() {
 
     return () => {
       clearTimeout(timeout);
-    }
+    };
   }, [numberOfDots]);
 
   return (
-    <p
-      className="messages__message messages__message--typing"
-      key="typing"
-    >
-      {`Typing${''.padStart(numberOfDots, '.')}`}
+    <p className="messages__message messages__message--typing" key="typing">
+      {`Typing${"".padStart(numberOfDots, ".")}`}
     </p>
   );
 }

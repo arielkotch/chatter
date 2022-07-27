@@ -1,1 +1,1 @@
-export { default, LatestMessages } from './LatestMessages';
+export { default, LatestMessages } from "./LatestMessages";

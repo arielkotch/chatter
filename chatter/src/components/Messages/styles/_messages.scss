@@ -1,4 +1,4 @@
-@import 'vars';
+@import "vars";
 
 .messages {
   display: flex;
@@ -24,7 +24,7 @@
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
-    border-bottom: 1px solid #E4EDEF;
+    border-bottom: 1px solid #e4edef;
     justify-content: space-between;
 
     @media only screen and (max-width: 700px) {
@@ -38,7 +38,7 @@
       width: 12px;
       height: 12px;
       border-radius: 50%;
-      background: #5BBD57;
+      background: #5bbd57;
       margin-left: 10px;
       margin-top: 3px;
     }
@@ -56,7 +56,7 @@
 
         > p {
           margin: 0;
-          color: #80909B;
+          color: #80909b;
           font-size: 18px;
           font-weight: 500;
           margin-top: 5px;
@@ -74,12 +74,12 @@
       font-weight: 500;
       display: flex;
       align-items: center;
-      color: #3D5364;
+      color: #3d5364;
 
       > i {
         margin-right: 10px;
         font-size: 20px;
-        color: #8191A0;
+        color: #8191a0;
 
         &.mdi {
           font-size: 24px;
@@ -121,7 +121,7 @@
     align-items: center;
     padding-left: 30px;
     padding-right: 30px;
-    border-top: 1px solid #E4EDEF;
+    border-top: 1px solid #e4edef;
 
     @media only screen and (max-width: 700px) {
       flex-direction: column;
@@ -134,18 +134,18 @@
       align-items: center;
 
       @media only screen and (max-width: 700px) {
-       margin-left: auto;
+        margin-left: auto;
       }
 
       > i {
         font-size: 25px;
-        color: #8194A4;
+        color: #8194a4;
         margin-right: 20px;
         cursor: pointer;
         transition: transform 0.2s ease-in-out;
 
         &:hover {
-          color: #3898EB;
+          color: #3898eb;
           transform: scale(1.05);
         }
 
@@ -157,7 +157,7 @@
       > button {
         background: none;
         border: 0;
-        color: #3898EB;
+        color: #3898eb;
         font-size: 18px;
         transition: transform 0.2s ease-in-out;
         will-change: transform;
@@ -175,7 +175,7 @@
         }
 
         &:disabled {
-          color: #B7C0CD;
+          color: #b7c0cd;
         }
       }
     }
@@ -228,7 +228,7 @@
     }
 
     &--me {
-      background: #3898EB;
+      background: #3898eb;
       color: white;
       margin-left: auto;
       border-bottom-left-radius: 25px;
@@ -240,7 +240,7 @@
 
     &:not(&--me) {
       background: white;
-      color: #29475C;
+      color: #29475c;
     }
   }
 }

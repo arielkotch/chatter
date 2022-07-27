@@ -1,1 +1,1 @@
-export { default } from './components/CoreLayout';
+export { default } from "./components/CoreLayout";

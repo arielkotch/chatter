@@ -1,10 +1,10 @@
 @import "styles/fonts";
 @import "~animate.css/animate.css";
-@import '~@mdi/font/scss/materialdesignicons';
+@import "~@mdi/font/scss/materialdesignicons";
 
 body {
   margin: 0;
-  font-family: 'helveticaneue', sans-serif;
+  font-family: "helveticaneue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
@@ -17,13 +17,13 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
 button,
 input {
-  font-family: 'helveticaneue', sans-serif;
+  font-family: "helveticaneue", sans-serif;
 }
 
 input {
@@ -36,7 +36,7 @@ input {
   }
 
   &::placeholder {
-    color: #3898EB;
+    color: #3898eb;
   }
 }
 
